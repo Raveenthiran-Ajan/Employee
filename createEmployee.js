@@ -4,7 +4,7 @@ const Employee = require('./model/Employee.js');
   // Import your model
 
 // Connect to MongoDB (replace <your_connection_string> with your actual URI)
-mongoose.connect('mongodb://localhost:27017/Employee', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb://localhost:27017/MERN', { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     console.log('MongoDB connected...');
     askQuestions();

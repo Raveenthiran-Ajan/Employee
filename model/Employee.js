@@ -6,10 +6,10 @@ let Employee = new Schema(
     firstName: {type : String},
     lastName: {type : String},
     email: {type : String},
-    phone: {type : number}
+    phone: {type : Number}
     },
 {
-    collection: 'employees'
+    collection: 'employee'
 }
 );
 
